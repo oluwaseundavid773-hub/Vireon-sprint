@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIREON | Pricing & Investment</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #030712;
+            color: #f8fafc;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #60a5fa, #818cf8);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-blue-600 selection:text-white">
+
+    <!-- Navigation Bar -->
+<header class="max-w-6xl mx-auto w-full flex justify-between items-center px-6 py-6 border-b border-blue-950">
+    <a href="index.html" class="flex items-center">
+        <img src="images/IMG_0658.JPG" alt="VIREON Logo" class="h-8 w-auto object-contain">
+    </a>
+    <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-400">
+        <a href="index.html" class="hover:text-blue-400 transition">Home</a>
+        <a href="about.html" class="hover:text-blue-400 transition">Mission</a>
+        <a href="blueprint.html" class="hover:text-blue-400 transition">Blueprint</a>
+        <a href="pricing.html" class="hover:text-blue-400 transition">Pricing</a>
+        <a href="register.html" class="bg-blue-600 text-white px-4 py-2 rounded-lg font-bold hover:bg-blue-500 transition shadow-lg shadow-blue-600/20">Register</a>
+    </nav>
+</header>
+
+    <!-- Main Content: Pricing Section -->
+    <main class="max-w-4xl mx-auto px-6 py-12 md:py-16 flex-grow">
+        <!-- Badge -->
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-950/60 border border-blue-900 text-blue-400 text-xs font-semibold mb-6 tracking-wide uppercase">
+            <span>Investment & Value</span>
+        </div>
+
+        <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight mb-4 leading-tight text-white">
+            Simple, transparent <span class="gradient-text">pricing</span>
+        </h1>
+        <p class="text-slate-400 text-lg mb-12 max-w-2xl">
+            Zero fluff, maximum impact. One straightforward investment gives you full access to the live 5-day web development sprint.
+        </p>
+
+        <!-- Pricing Card Container -->
+        <div class="grid md:grid-cols-1 max-w-xl mx-auto mb-12">
+            <div class="bg-blue-950/30 border-2 border-blue-600/60 p-8 rounded-3xl shadow-2xl relative overflow-hidden flex flex-col justify-between">
+                <!-- Popular Badge -->
+                <div class="absolute top-6 right-6 bg-blue-600 text-white text-xs font-extrabold px-3 py-1 rounded-full uppercase tracking-wider shadow-md">
+                    All-Inclusive Sprint
+                </div>
+
+                <div>
+                    <span class="text-blue-400 font-mono text-xs uppercase tracking-wider font-bold">5-Day Cohort Pass</span>
+                    <h3 class="text-4xl sm:text-5xl font-extrabold text-white mt-3">₦17,500</h3>
+                    <p class="text-slate-400 text-sm mt-2">Everything you need to go from concept to a live web application.</p>
+
+                    <!-- Features List -->
+                    <ul class="mt-8 space-y-4 text-slate-300 text-sm">
+                        <li class="flex items-center gap-3">
+                            <span class="text-blue-400 font-bold">✓</span> Full 5-Day Immersive Curriculum & Roadmap
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="text-blue-400 font-bold">✓</span> Hands-on HTML5, Tailwind CSS, & JavaScript Training
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="text-blue-400 font-bold">✓</span> Direct Mentorship & Step-by-Step Guidance
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="text-blue-400 font-bold">✓</span> Live Deployment on Vercel (Your own public URL)
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="text-blue-400 font-bold">✓</span> Lifetime Access to VIREON Builder Resources
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="mt-10">
+                    <a href="register.html" class="inline-flex items-center justify-center w-full gap-2 bg-blue-600 text-white font-bold py-4 rounded-xl shadow-lg shadow-blue-600/20 hover:bg-blue-500 transition">
+                        Secure Your Spot Now &rarr;
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="max-w-6xl mx-auto w-full text-center py-6 border-t border-blue-950 text-xs text-slate-500 flex flex-col sm:flex-row justify-between px-6">
+        <p>&copy; 2026 VIREON. All rights reserved.</p>
+        <p>Built by builders, for builders.</p>
+    </footer>
+
+</body>
+</html>

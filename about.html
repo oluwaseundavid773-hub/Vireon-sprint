@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIREON | Mission & Purpose</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #030712;
+            color: #f8fafc;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #60a5fa, #818cf8);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-blue-600 selection:text-white">
+
+    <!-- Navigation Bar -->
+    <header class="max-w-6xl mx-auto w-full flex justify-between items-center px-6 py-6 border-b border-blue-950">
+        <a href="index.html" class="flex items-center">
+            <!-- White container card frames your JPEG logo cleanly -->
+            <div class="bg-white px-3 py-1.5 rounded-xl shadow-lg flex items-center justify-center">
+                <img src="images/IMG_0658.JPG" alt="VIREON Logo" class="h-7 w-auto object-contain">
+            </div>
+        </a>
+        <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-400">
+            <a href="index.html" class="hover:text-blue-400 transition">Home</a>
+            <a href="about.html" class="text-white transition font-bold text-blue-400">Mission</a>
+            <a href="blueprint.html" class="hover:text-blue-400 transition">Blueprint</a>
+            <a href="pricing.html" class="hover:text-blue-400 transition">Pricing</a>
+            <a href="register.html" class="bg-blue-600 text-white px-4 py-2 rounded-lg font-bold hover:bg-blue-500 transition shadow-lg shadow-blue-600/20">Register</a>
+        </nav>
+    </header>
+
+    <!-- Main Content: Mission & Purpose -->
+    <main class="max-w-4xl mx-auto px-6 py-12 md:py-16 flex-grow">
+        <!-- Badge -->
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-950/60 border border-blue-900 text-blue-400 text-xs font-semibold mb-6 tracking-wide uppercase">
+            <span>Our Purpose</span>
+        </div>
+
+        <h1 class="text-3xl sm:text-5xl font-extrabold tracking-tight mb-6 leading-tight text-white">
+            Building a new generation of <span class="gradient-text">tech creators</span>
+        </h1>
+        
+        <p class="text-slate-300 text-lg mb-12 leading-relaxed">
+            VIREON is a tech ecosystem built to bridge the gap between learning a skill and actually shipping real-world software. We believe that the best way to master technology is building things that matter. Too many people get stuck in tutorial hell—watching endless videos without ever launching anything. VIREON changes that. Our mission is to provide an environment where ideas are unlocked, modern tech skills are taught with zero fluff, and students take real code live to the internet.
+        </p>
+
+        <!-- Three Pillars Grid -->
+        <div class="grid md:grid-cols-3 gap-6 mb-12">
+            <!-- Pillar 1 -->
+            <div class="bg-blue-950/30 border border-blue-900/50 p-6 rounded-2xl flex flex-col justify-between">
+                <div>
+                    <span class="text-blue-400 font-mono text-xs uppercase tracking-wider font-bold">01. Learn</span>
+                    <h3 class="text-xl font-bold text-white mt-2">Practical Engineering</h3>
+                    <p class="text-slate-400 text-sm mt-2">Practical, modern engineering and automation skills taught through clear, hands-on sprints.</p>
+                </div>
+            </div>
+
+            <!-- Pillar 2 -->
+            <div class="bg-blue-950/30 border border-blue-900/50 p-6 rounded-2xl flex flex-col justify-between">
+                <div>
+                    <span class="text-blue-400 font-mono text-xs uppercase tracking-wider font-bold">02. Promotes</span>
+                    <h3 class="text-xl font-bold text-white mt-2">Empowering Builders</h3>
+                    <p class="text-slate-400 text-sm mt-2">Empowering builders to showcase capabilities and put their projects out into the global tech space.</p>
+                </div>
+            </div>
+
+            <!-- Pillar 3 -->
+            <div class="bg-blue-950/30 border border-blue-900/50 p-6 rounded-2xl flex flex-col justify-between">
+                <div>
+                    <span class="text-blue-400 font-mono text-xs uppercase tracking-wider font-bold">03. Build</span>
+                    <h3 class="text-xl font-bold text-white mt-2">Real-World Software</h3>
+                    <p class="text-slate-400 text-sm mt-2">Moving past theory to deploy functional, real-world applications under the VIREON banner.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Next Action -->
+        <div>
+            <a href="blueprint.html" class="inline-flex items-center gap-2 bg-blue-600 text-white font-bold px-6 py-3 rounded-xl shadow-lg shadow-blue-600/20 hover:bg-blue-500 transition">
+                Check Out the 5-Day Blueprint &rarr;
+            </a>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="max-w-6xl mx-auto w-full text-center py-6 border-t border-blue-950 text-xs text-slate-500 flex flex-col sm:flex-row justify-between px-6">
+        <p>&copy; 2026 VIREON. All rights reserved.</p>
+        <p>Built by builders, for builders.</p>
+    </footer>
+
+</body>
+</html>
