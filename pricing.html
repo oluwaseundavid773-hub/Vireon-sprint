@@ -19,18 +19,21 @@
 <body class="bg-[#030712] text-slate-100 min-h-screen flex flex-col font-sans selection:bg-blue-600 selection:text-white">
 
     <!-- Navigation Bar -->
-    <header class="max-w-6xl mx-auto w-full flex justify-between items-center px-6 py-6 border-b border-blue-950">
-        <a href="index.html" class="flex items-center">
-            <img src="images/IMG_0658.JPG" alt="VIREON Logo" class="h-8 w-auto object-contain">
-        </a>
-        <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-400">
-            <a href="index.html" class="hover:text-blue-400 transition">Home</a>
-            <a href="about.html" class="hover:text-blue-400 transition">Mission</a>
-            <a href="blueprint.html" class="hover:text-blue-400 transition">Blueprint</a>
-            <a href="pricing.html" class="text-white font-bold text-blue-400 transition">Pricing</a>
-            <a href="register.html" class="bg-blue-600 text-white px-4 py-2 rounded-lg font-bold hover:bg-blue-500 transition shadow-lg shadow-blue-600/20">Register</a>
-        </nav>
-    </header>
+<header class="max-w-6xl mx-auto w-full flex flex-col md:flex-row justify-between items-center px-6 py-4 border-b border-slate-800 gap-4">
+    <!-- Brand Logo -->
+    <a href="index.html" class="flex items-center">
+        <img src="images/IMG_0658.JPG" alt="VIREON Logo" class="h-8">
+    </a>
+    
+    <!-- Navigation Links -->
+    <nav class="flex flex-wrap justify-center items-center gap-4 md:space-x-8 text-sm text-slate-300">
+        <a href="index.html" class="hover:text-blue-400 transition">Home</a>
+        <a href="about.html" class="hover:text-blue-400 transition">Mission</a>
+        <a href="blueprint.html" class="hover:text-blue-400 transition">Blueprint</a>
+        <a href="pricing.html" class="hover:text-blue-400 transition">Pricing</a>
+        <a href="register.html" class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg transition font-medium">Register</a>
+    </nav>
+</header>
 
     <!-- Header Hero Section with Analytics/Value Mockup Image -->
     <section class="max-w-6xl mx-auto px-6 py-12 lg:py-16 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
